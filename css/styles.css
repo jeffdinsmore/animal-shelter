@@ -32,3 +32,18 @@ h1 {
 h3 {
  margin-left: 30px;
 }
+
+@media screen and (max-width: 1000px) and (min-width: 700px){
+ body {
+  background-color: crimson;
+  color: white;
+ }
+}
+
+@media screen and (max-width: 480px) and (min-width: 300px){
+ body {
+  background-color: royalblue;
+  color: white;
+  font-style: italic;
+ }
+}
